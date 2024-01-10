@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
     <link rel="stylesheet" href="index.css">
-    <title>JJ Portfolio</title>
-</head>
-<body>
-    <div class="nav"> Today</div>
-    <div class="hero"> is </div>
-    <div class="work-sample"> a </div>
-    <div class="footer">great day</div>
-   
-</body>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="section1">
+        <nav class="navbar">
+               <!-- LOGO -->
+    <div class="logo">
+        <a href=""><img src="images/logo.png" alt="JessHub Logo" style="width:120px;"></a>
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger" >&#9776;</label>
+      <label for="checkbox_toggle" class="cross" >&#9932;</label> 
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">About</a></li>
+        <li class="services">
+            <a href="/">Art</a>
+      <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+                <li><a href="/">Dropdown 1 </a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 3</a></li>
+                <li><a href="/">Dropdown 4</a></li>
+              </ul>  
+        </li>
+        <li class="services">
+          <a href="/">Marketing</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul>
+
+        </li>
+
+        <!-- <li><a href="/">Pricing</a></li> -->
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+    </nav>
+    </div>
+    
+    <div class="section2 hero">
+        <div class="bg-image">
+            <img src="images/hero.jpg" alt="hero-image">
+        </div>
+
+        <div class="bg-text">
+          <h1>I am Jessica Lian</h1>
+          <p>A creative artist who wants to work with you.</p>
+        </div>
+
+    </div>
+
+    <div class="section3 abouts">
+        <div class='intro'>
+            <div class='column'>
+              <div class='art'>
+                Some Text in Column One
+              </div>
+            </div>
+            <div class='column'>
+              <div class='marketing'>
+                Some Text in Column Two
+              </div>
+            </div>
+          </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="section4 connect"></div>
+    <div class="section5 footer"></div>
+    
+
+
+
+
+
+	<script>
+       
+
+        </script>
+  </body>
 </html>
